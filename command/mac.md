@@ -10,6 +10,10 @@ brew cast install iTerm2
 chsh -s /bin/zsh
 # 如果想修改回默认dash，同样使用chsh命令即可
 chsh -s /bin/bash
+# 我们可以将iTem2设为默认终端。
+iTem2 -> Make Item2 DDefault Term
+# 查看有几个终端
+cat /etc/shells
 ```
 
 * 替换背景图片
@@ -25,7 +29,9 @@ chsh -s /bin/bash
 # curl 安装方式
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 # wget 安装方式
-sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# fetch安装方法
+sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 * install PowerLine
 ```bash
@@ -47,8 +53,14 @@ cd fonts
 
 * 安装配色方案
 ```bash
+# 方法1
+# cd 到要下载的目录
+git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
+# 打开下载后的文件夹，配色方案在 schemes 文件夹中
+# 进入 iTem -> Preferences -> Profiles -> Colors -> Color Presets
+# 选则 Import，把 schemes 文件夹里的 itermcolors 全部导入，选则自己喜欢的搭配即可。
+# 方法2
 git clone https://github.com/altercation/solarized
- 
 cd solarized/iterm2-colors-solarized/
 open .
 # 在打开的finder窗口中，双击Solarized Dark.itermcolors和Solarized Light.itermcolors即可安装明暗两种配色：
@@ -62,7 +74,7 @@ cd oh-my-zsh-agnoster-fcamblor/
 ./install
 # 执行上面的命令会将主题拷贝到oh my zsh的themes.
 # 执行命令打开zshrc配置文件，将ZSH_THEME后面的字段改为agnoster
-vi ~/.zshrc
+vim ~/.zshrc
 ```
 * 安装高亮插件
 ```bash
