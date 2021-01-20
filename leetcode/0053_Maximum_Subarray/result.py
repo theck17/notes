@@ -17,4 +17,8 @@ class Solution:
 
 
 if __name__ == "__main__":
+    num_list = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
+    a = Solution()
+    res = a.maxSubArray(num_list)
+    print(res)
     pass
