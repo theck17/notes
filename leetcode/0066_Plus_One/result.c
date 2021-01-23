@@ -39,4 +39,4 @@ int *plusOne(int *digits, int digitsSize, int *returnSize) {
   }
 }
 
-/** int main() { return 0; } */
+int main() { return 0; }
