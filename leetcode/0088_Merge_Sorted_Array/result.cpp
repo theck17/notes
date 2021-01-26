@@ -7,6 +7,17 @@
  *   DateTime      ：2021-01-24 13:51:22
  *   Description   ：
  */
+#include <algorithm>        //STL 通用算法
+#include <queue>           //STL 队列容器
+#include <set>             //STL 集合容器
+#include <sstream>         //基于字符串的流
+#include <stack>           //STL 堆栈容器
+#include <stdexcept>       //标准异常类
+#include <streambuf>       //底层输入／输出支持
+#include <string>          //字符串类
+#include <vector>          //STL 动态数组容器
+#include <valarray>        //对包含值的数组的操作
+#include <ctime>           //定义关于时间的函数
 using namespace std;
 
 
