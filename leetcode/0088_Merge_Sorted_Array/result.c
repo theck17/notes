@@ -59,4 +59,4 @@ void merge(int *nums1, int nums1Size, int m, int *nums2, int nums2Size, int n) {
     nums1[c] = res[c];
 }
 
-int main() { printf("hello world") return 0; }
+int main() { return 0; }
