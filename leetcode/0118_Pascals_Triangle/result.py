@@ -3,24 +3,16 @@
 # Email: theck17@163.com
 # DateTime:2021-01-27 20:10:24
 # Description:
-
-
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
-        res = []
-
-        for i in range(0, numRows):
-            a = []
-            for j in range(0, i + 1):
-                a.append(self.genPT(i, j))
-            res.append(a)
-        return res
-
-    def genPT(self, i, j):
-        if i == j or j == 0:
-            return 1
-
-        return self.genPT(i - 1, j - 1) + self.genPT(i - 1, j)
+        l = [[0] * i for i in range(1, numRows + 1)]
+        for i in range(len(l)):
+            l[i][0] = 1
+            l[i][-1] = 1
+        for i in range(2, len(l)):
+            for j in range(1, len(l[i]) - 1):
+                l[i][j] = l[i - 1][j - 1] + l[i - 1][j]
+        return l
 
 
 if __name__ == "__main__":
