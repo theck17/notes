@@ -15,11 +15,6 @@
 #include <istream>         //基本输入流
 #include <iterator>        //STL迭代器
 #include <ostream>         //基本输出流
-#include <queue>           //STL 队列容器
-#include <ctime>           //定义关于时间的函数
-using namespace std;
-
-
 class Solution {
     long long computeProduct(int a, int b, int c) {
         long long product=1;
