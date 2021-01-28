@@ -4,6 +4,8 @@
 # DateTime:2021-01-27 20:17:41
 # Description:
 
+import os, sys
+
 
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
