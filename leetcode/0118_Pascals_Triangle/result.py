@@ -3,6 +3,10 @@
 # Email: theck17@163.com
 # DateTime:2021-01-27 20:10:24
 # Description:
+
+import os, sys
+
+
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         l = [[0] * i for i in range(1, numRows + 1)]
