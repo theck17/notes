@@ -8,8 +8,6 @@
  *   Description   ：
  */
 #include <algorithm>        //STL 通用算法
-#include <cctype>          //字符处理
-#include <cerrno>          //定义错误码 
 #include <cfloat>          //浮点数处理 
 #include <ciso646>         //对应各种运算符的宏
 #include <climits>         //定义各种数据类型最值的常量
