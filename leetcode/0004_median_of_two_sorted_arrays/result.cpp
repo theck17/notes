@@ -9,9 +9,6 @@
  */
 #include <algorithm>        //STL 通用算法
 #include <cfloat>          //浮点数处理 
-#include <ciso646>         //对应各种运算符的宏
-#include <climits>         //定义各种数据类型最值的常量
-#include <clocale>         //定义本地化函数
 #include <cmath>           //定义数学函数 
 #include <complex>         //复数类 
 #include <csignal>         //信号机制支持 
