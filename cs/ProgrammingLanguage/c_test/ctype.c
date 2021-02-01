@@ -10,6 +10,7 @@
 
 #include <ctype.h>
 #include <stdio.h>
+#include <string.h>
 
 int main() {
   int var1 = 'd';
@@ -122,5 +123,20 @@ int main() {
     printf("var14 = |%s| 不是十六进制数字\n", var14);
   }
 
+  int k = 0;
+  char str3[] = "COLIN KNIGHT";
+
+  while (str3[k]) {
+    putchar(tolower(str3[k]));
+    k++;
+  }
+  printf("\n");
+  k = 0;
+  strcpy(str3, "colin knight");
+
+  while (str3[k]) {
+    putchar(toupper(str3[k]));
+    k++;
+  }
   return (0);
 }
