@@ -8,36 +8,7 @@
  *   Description   ：
  */
 #include <algorithm>        //STL 通用算法
-#include <bitset>           //STL 位集容器
-#include <cctype>          //字符处理
-#include <cerrno>          //定义错误码 
-#include <cfloat>          //浮点数处理 
-#include <ciso646>         //对应各种运算符的宏
-#include <climits>         //定义各种数据类型最值的常量
-#include <clocale>         //定义本地化函数
-#include <cmath>           //定义数学函数 
-#include <complex>         //复数类 
-#include <csignal>         //信号机制支持 
-#include <csetjmp>         //异常处理支持 
-#include <cstdarg>         //不定参数列表支持
-#include <cstddef>         //常用常量
-#include <cstdio>          //定义输入／输出函数
-#include <cstdlib>         //定义杂项函数及内存分配函数
-#include <cstring>         //字符串处理
-#include <cwchar>          //宽字符处理及输入／输出
-#include <cwctype>         //宽字符分类
-#include <deque>           //STL 双端队列容器
-#include <exception>       //异常处理类
-#include <fstream>         //文件输入／输出
-#include <functional>      //STL 定义运算函数（代替运算符）
-#include <limits>          //定义各种数据类型最值常量
-#include <list>            //STL 线性列表容器
-#include <map>             //STL 映射容器
-#include <locale>          //本地化特定信息
-#include <memory>          //STL通过分配器进行的内存分配
-#include <new>             //动态内存分配
-#include <numeric>         //STL常用的数字操作
-#include <iostream>        //数据流输入／输出
+
 #include <istream>         //基本输入流
 #include <iterator>        //STL迭代器
 #include <ostream>         //基本输出流
@@ -53,7 +24,28 @@
 #include <ctime>           //定义关于时间的函数
 using namespace std;
 
-
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+		//init ans,min_num,max_num
+        int ans = 0;
+        int min_num = INT_MAX;
+        int max_num = INT_MIN;
+		//read all num
+        for(int i=0;i<prices.size();i++){
+			//update min and max;
+            min_num = min(prices[i],min_num);
+            max_num = max(prices[i],max_num);
+			//if min_num just update init the max_num,
+			//cause max shoud appear after min
+            if(min_num==prices[i]){
+                max_num = INT_MIN;
+			//else update ans
+            }else{ans = max(ans,max_num-min_num);}
+        }
+        return ans;
+    }
+};
 
 
 
