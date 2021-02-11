@@ -8,6 +8,16 @@
  *   Description   ：
  */
 #include <algorithm>        //STL 通用算法
+#include <bitset>           //STL 位集容器
+#include <cctype>          //字符处理
+#include <cerrno>          //定义错误码 
+#include <cfloat>          //浮点数处理 
+#include <ciso646>         //对应各种运算符的宏
+#include <climits>         //定义各种数据类型最值的常量
+#include <clocale>         //定义本地化函数
+#include <vector>          //STL 动态数组容器
+#include <valarray>        //对包含值的数组的操作
+#include <ctime>           //定义关于时间的函数
 using namespace std;
 
 
