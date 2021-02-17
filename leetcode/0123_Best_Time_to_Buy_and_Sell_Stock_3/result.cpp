@@ -10,8 +10,6 @@
 #include <algorithm>        //STL 通用算法
 #include <set>             //STL 集合容器
 #include <sstream>         //基于字符串的流
-#include <stack>           //STL 堆栈容器
-#include <stdexcept>       //标准异常类
 #include <streambuf>       //底层输入／输出支持
 #include <string>          //字符串类
 #include <vector>          //STL 动态数组容器
