@@ -13,9 +13,6 @@
 #include <stdlib.h> //动态分配函数和随机函数
 #include <string.h> //字符串函数
 
-/**
- * Note: The returned array must be malloced, assume caller calls free().
- */
 int *plusOne(int *digits, int digitsSize, int *returnSize) {
   int *result = malloc(sizeof(int) * (digitsSize + 1));
   if (!digitsSize) {
