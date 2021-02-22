@@ -4,8 +4,6 @@
 # DateTime:2021-01-27 20:10:24
 # Description:
 
-import os, sys, re
-
 
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
