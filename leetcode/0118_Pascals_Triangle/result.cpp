@@ -7,10 +7,6 @@
  *   DateTime      ：2021-01-27 20:08:02
  *   Description   ：
  */
-#include <algorithm>        //STL 通用算法
-#include <memory>          //STL通过分配器进行的内存分配
-#include <new>             //动态内存分配
-#include <iostream>        //数据流输入／输出
 #include <istream>         //基本输入流
 #include <iterator>        //STL迭代器
 #include <ostream>         //基本输出流
