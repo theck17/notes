@@ -1,8 +1,18 @@
-//
-// Created by theck on 2021/1/15.
-//
-
-#include "result.h"
+/**
+ *   Copyright (C) 2021 All rights reserved.
+ *
+ *   FileName      ：result.cpp
+ *   Author        ：C.K
+ *   Email         ：theck17@163.com
+ *   DateTime      ：2021-02-24 21:19:31
+ *   Description   ：
+ */
+#include <algorithm>        //STL 通用算法
+#include <string>          //字符串类
+#include <vector>          //STL 动态数组容器
+#include <valarray>        //对包含值的数组的操作
+#include <ctime>           //定义关于时间的函数
+using namespace std;
 
 
 class Solution {
