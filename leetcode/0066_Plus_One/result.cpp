@@ -8,6 +8,7 @@
  *   Description   ：
  */
 #include <algorithm>        //STL 通用算法
+
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
