@@ -4,6 +4,8 @@
 # DateTime:2021-03-08 19:43:29
 # Description: 
 
+import os, sys
+
 class Solution:
     def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
         arr = set(range(1, len(nums) + 1))
