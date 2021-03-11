@@ -4,6 +4,8 @@
 # DateTime:2021-03-10 19:46:25
 # Description:
 
+import os, sys
+
 
 class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
