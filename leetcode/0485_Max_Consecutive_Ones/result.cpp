@@ -7,6 +7,12 @@
  *   DateTime      ：2021-03-10 19:50:49
  *   Description   ：
  */
+#include <algorithm>        //STL 通用算法
+#include <bitset>           //STL 位集容器
+#include <cctype>          //字符处理
+#include <cerrno>          //定义错误码 
+#include <cfloat>          //浮点数处理 
+#include <ciso646>         //对应各种运算符的宏
 #include <vector>          //STL 动态数组容器
 #include <valarray>        //对包含值的数组的操作
 #include <ctime>           //定义关于时间的函数
