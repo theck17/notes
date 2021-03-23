@@ -4,6 +4,10 @@
 # DateTime:2021-03-21 17:53:33
 # Description: 
 
+import os
+improt sys
+
+
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         
