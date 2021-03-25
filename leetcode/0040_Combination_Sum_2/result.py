@@ -4,9 +4,6 @@
 # DateTime:2021-03-24 19:24:54
 # Description:
 
-import os
-import sys
-
 
 class Solution:
     def combinationSum2(self, candidates: List[int],
