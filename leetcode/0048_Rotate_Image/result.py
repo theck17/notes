@@ -2,19 +2,22 @@
 # Author: C.K
 # Email: theck17@163.com
 # DateTime:2021-03-31 20:43:20
-# Description: 
+# Description:
+import os
+import sys
+
 
 class Solution:
     def rotate(self, mat: List[List[int]]) -> None:
 
         if mat is None:
             return None
-        
+
         n = len(mat)
-        
+
         if n == 1:
             return mat
-        
+
         for i in range(n):
             if len(mat[i]) != n:
                 raise Exception("Matrix must be square")
@@ -30,8 +33,5 @@ class Solution:
                 mat[i][j], mat[i][n - j - 1] = mat[i][n - j - 1], mat[i][j]
 
 
-
-
 if __name__ == "__main__":
-   pass
-
+    pass
