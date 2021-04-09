@@ -4,9 +4,6 @@
 # DateTime:2021-04-07 20:34:19
 # Description:
 
-import os
-import sys
-
 
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
