@@ -4,6 +4,9 @@
 # DateTime:2021-04-14 18:50:12
 # Description:
 
+import os
+import sys
+
 
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
