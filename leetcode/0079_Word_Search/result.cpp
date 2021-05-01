@@ -8,7 +8,9 @@
  *   Description   ：
  */
 #include <algorithm>        //STL 通用算法
+#include <string>          //字符串类
 #include <vector>          //STL 动态数组容器
+#include <valarray>        //对包含值的数组的操作
 using namespace std;
 
 
