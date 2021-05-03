@@ -4,6 +4,9 @@
 # DateTime:2021-04-29 18:46:53
 # Description:
 
+import os
+import sys
+
 
 class Solution():
     def exist(self, board, word):
