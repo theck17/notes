@@ -4,9 +4,6 @@
 # DateTime:2021-04-25 19:44:31
 # Description:
 
-import os
-import sys
-
 
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
