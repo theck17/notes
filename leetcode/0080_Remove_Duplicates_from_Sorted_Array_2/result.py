@@ -4,9 +4,6 @@
 # DateTime:2021-05-06 15:25:02
 # Description:
 
-import os
-import sys
-
 
 class Solution:
     def removeDuplicates(self, nums):
