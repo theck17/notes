@@ -13,28 +13,23 @@
 #include <ctime>           //定义关于时间的函数
 using namespace std;
 
-class Solution 
-{
+class Solution {
 public:
-    void rotate(int nums[], int n, int k) 
-    {
-        for (; k = k%n; n -= k, nums += k)
-        {
-            // Swap the last k elements with the first k elements. 
-            // The last k elements will be in the correct positions
-            // but we need to rotate the remaining (n - k) elements 
-            // to the right by k steps.
-            for (int i = 0; i < k; i++)
-            {
-                swap(nums[i], nums[n - k + i]);
-            }
+    void rotate(vector<int>& nums, int k) {
+        int sz,n;
+        sz=n=nums.size();
+        k%=n;
+        if(n<2 || k<1) return;
+        for(int i=k;n>0;++i) {
+            int j=i, prev=nums[(i-k)%k];
+			while(n-->0) {
+				std::swap(prev,nums[j]);
+                j=(j+k)%sz;
+				if(j==i) break;
+			}
         }
     }
 };
-
-
-
-
 int main(){
     return 0;
 }
