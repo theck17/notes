@@ -1,6 +1,6 @@
 # 安装Linux
 
-> 虚拟机：VmwareFusion
+> 虚拟机：Vmware
 >
 > Linux版本：Ubuntu-20.04.1
 
