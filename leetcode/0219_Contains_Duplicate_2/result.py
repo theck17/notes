@@ -2,7 +2,10 @@
 # Author: C.K
 # Email: theck17@163.com
 # DateTime:2021-06-18 18:49:16
-# Description: 
+# Description:
+
+import os
+
 
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
@@ -14,8 +17,5 @@ class Solution:
         return False
 
 
-
-
 if __name__ == "__main__":
-   pass
-
+    pass
