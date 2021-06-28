@@ -36,3 +36,4 @@
 */.DS_Store
 */venv
 */.idea
+.ccls-cache
