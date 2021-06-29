@@ -13,7 +13,3 @@ class Solution:
         for key, val in dic.items():
             if val == 1:
                 return key
-
-
-if __name__ == "__main__":
-    pass
