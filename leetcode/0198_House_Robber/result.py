@@ -23,7 +23,3 @@ class Solution:
         print(dp)
 
         return max(dp)
-
-
-if __name__ == "__main__":
-    pass
