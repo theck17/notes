@@ -7,14 +7,12 @@
 
 class Solution:
     def minMoves(self, nums: List[int]) -> int:
+        nums.sort()
         c = 0
-        while True:
-            max1, min1 = max(nums), min(nums)
-            if max1 == min1:
+        for i in range(len(nums) - 1, -1, -1):
+            if nums[i] == nums[0]:
                 break
-            idx, c = nums.index(max1), c + 1
-            for i in range(len(nums)):
-                nums[i] = nums[i] + 1 if i != idx else nums[i]
+            c += nums[i] - nums[0]
         return c
 
 
