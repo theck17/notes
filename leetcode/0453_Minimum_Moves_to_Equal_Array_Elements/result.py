@@ -14,7 +14,3 @@ class Solution:
                 break
             c += nums[i] - nums[0]
         return c
-
-
-if __name__ == "__main__":
-    pass
