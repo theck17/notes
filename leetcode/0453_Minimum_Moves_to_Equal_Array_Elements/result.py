@@ -4,6 +4,8 @@
 # DateTime:2021-07-02 20:04:41
 # Description:
 
+import os
+
 
 class Solution:
     def minMoves(self, nums: List[int]) -> int:
