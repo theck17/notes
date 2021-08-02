@@ -3,6 +3,8 @@
 # Email: theck17@163.com
 # DateTime:2021-08-01 20:04:19
 # Description:
+
+
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         carry = 0
@@ -21,7 +23,3 @@ class Solution:
             carry //= 2
 
         return result[::-1]
-
-
-if __name__ == "__main__":
-    pass
