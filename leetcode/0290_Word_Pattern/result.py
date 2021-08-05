@@ -3,8 +3,6 @@
 # Email: theck17@163.com
 # DateTime:2021-07-24 21:28:54
 # Description: 
-import os
-import sys
 
 class Solution:
     def wordPattern(self, pattern: str, s: str) -> bool:
