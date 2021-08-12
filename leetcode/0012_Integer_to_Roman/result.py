@@ -3,6 +3,8 @@
 # Email: theck17@163.com
 # DateTime:2021-08-09 19:41:36
 # Description:
+
+
 class Solution:
     def intToRoman(self, num: int) -> str:
         values = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
@@ -16,7 +18,3 @@ class Solution:
             num %= values[i]
             i += 1
         return res
-
-
-if __name__ == "__main__":
-    pass
