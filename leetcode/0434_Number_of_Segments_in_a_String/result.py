@@ -13,7 +13,3 @@ class Solution:
             if s[i] == " " and s[i + 1] != " ":
                 count += 1
         return count + 1
-
-
-if __name__ == "__main__":
-    pass
