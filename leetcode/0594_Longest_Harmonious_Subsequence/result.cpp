@@ -8,27 +8,23 @@
  *   Description   ：
  */
 using namespace std;
+
 class Solution {
 public:
     int findLHS(vector<int>& nums) {
-        int n = nums.size();
-        
-        int maxC = 0;
-        for(int i = 0; i<n; i++) {
-            int c = 0;
-            bool found = false;
-            for(int j = 0; j<n; j++) {
-                if(nums[j] == nums[i]+1 || nums[j] == nums[i]) {
-                    if(nums[i] != nums[j])
-                        found = true; //To avoid cases like {1, 1, 1, 1, 1} output should be 0
-                    c++;
-                }
-            }
-            if(found)
-                maxC = max(maxC, c);
-            
+        sort(nums.begin(),nums.end());
+        int len = 0;
+        for(int i = 1, start = 0, new_start = 0; i<nums.size(); i++)
+        {
+
+            if (nums[i] - nums[start] > 1)    
+                start = new_start;
+            if (nums[i] != nums[i-1]) 
+                new_start = i;
+            if(nums[i] - nums[start] == 1)
+                len = max(len, i-start+1);
         }
-        return maxC;
+        return len;
     }
 };
 
