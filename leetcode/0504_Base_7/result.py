@@ -17,7 +17,3 @@ class Solution:
             num = num // 7
 
         return '-' * sign + ''.join(stack[::-1])
-
-
-if __name__ == "__main__":
-    pass
