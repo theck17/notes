@@ -41,6 +41,3 @@ char* convertToBase7(int num) {
     return ans;
 }
 
-int main(){
-    return 0;
-}
