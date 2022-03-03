@@ -21,7 +21,3 @@ class Solution:
 
                 res[row][col] = int(avg)
         return res
-
-
-if __name__ == "__main__":
-    pass
