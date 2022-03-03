@@ -88,6 +88,3 @@ int** imageSmoother(int** img, int imgSize, int* imgColSize, int* returnSize, in
 
 }a
 
-int main(){
-    return 0;
-}
