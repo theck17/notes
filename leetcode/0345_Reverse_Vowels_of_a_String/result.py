@@ -18,7 +18,3 @@ class Solution:
             if s[ptr_2] not in vowels:
                 ptr_2 -= 1
         return ''.join(s)
-
-
-if __name__ == "__main__":
-    pass
