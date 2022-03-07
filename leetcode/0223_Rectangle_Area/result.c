@@ -64,6 +64,3 @@ int computeArea(int A, int B, int C, int D, int E, int F, int G, int H){
   return (C - A) * (D - B) - interx * intery + (G - E) * (H - F);
 }1
 
-int main(){
-    return 0;
-}
