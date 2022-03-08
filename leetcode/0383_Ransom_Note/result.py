@@ -9,7 +9,3 @@ class Solution:
             if magazine.count(c) < ransomNote.count(c):
                 return False
         return True
-
-
-if __name__ == "__main__":
-    pass
