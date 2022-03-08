@@ -7,8 +7,6 @@
  *   DateTime      ：2021-08-19 22:56:46
  *   Description   ：
  */
-#include <algorithm>        //STL 通用算法
-#include <ctime>           //定义关于时间的函数
 using namespace std;
 class Solution {
 public:
@@ -20,6 +18,3 @@ public:
     }
 };
 
-int main(){
-    return 0;
-}
