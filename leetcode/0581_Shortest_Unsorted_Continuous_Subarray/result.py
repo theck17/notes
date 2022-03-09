@@ -23,7 +23,3 @@ class Solution:
 
         if right_ptr == left_ptr: return 0
         return right_ptr - left_ptr + 1
-
-
-if __name__ == "__main__":
-    pass
