@@ -86,5 +86,5 @@ int** imageSmoother(int** img, int imgSize, int* imgColSize, int* returnSize, in
     *returnSize = imgSize;
     return ret_arr;
 
-}a
+}
 
