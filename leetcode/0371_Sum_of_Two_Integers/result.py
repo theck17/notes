@@ -17,7 +17,3 @@ class Solution:
         # if a is negative, get a's 32 bits complement positive first
         # then get 32-bit positive's Python complement negative
         return a if a <= MAX else ~(a ^ mask)
-
-
-if __name__ == "__main__":
-    pass
