@@ -15,7 +15,3 @@ class Solution:
             else:
                 return mid
         return -1
-
-
-if __name__ == "__main__":
-    pass
