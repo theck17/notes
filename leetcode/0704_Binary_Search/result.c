@@ -27,6 +27,3 @@ int search(int* nums, int numsSize, int target)
     return -1;
 }
 
-int main(){
-    return 0;
-}
