@@ -10,7 +10,3 @@ class Solution:
             k += 1
             total += k
         return k - 1
-
-
-if __name__ == "__main__":
-    pass
