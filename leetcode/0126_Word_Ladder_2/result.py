@@ -31,7 +31,3 @@ class Solution(object):
             layer = newlayer
 
         return res
-
-
-if __name__ == "__main__":
-    pass
