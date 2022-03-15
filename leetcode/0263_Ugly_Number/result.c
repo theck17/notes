@@ -18,6 +18,3 @@ bool isUgly(int num) {
     return true;
 }
 
-int main(){
-    return 0;
-}
