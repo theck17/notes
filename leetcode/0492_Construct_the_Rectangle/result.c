@@ -22,6 +22,3 @@ int* constructRectangle(int area, int* returnSize){
     return ReturnArray;
 }
 
-int main(){
-    return 0;
-}
