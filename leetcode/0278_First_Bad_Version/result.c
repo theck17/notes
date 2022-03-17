@@ -21,6 +21,3 @@ int firstBadVersion(int n) {
     return (int)left;
 }
 
-int main(){
-    return 0;
-}
