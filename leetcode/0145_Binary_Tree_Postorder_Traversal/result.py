@@ -19,7 +19,3 @@ class Solution:
                 stack.append(node.left)
                 stack.append(node.right)
         return res[::-1]
-
-
-if __name__ == "__main__":
-    pass
