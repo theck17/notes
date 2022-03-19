@@ -24,7 +24,3 @@ class Solution:
             for path in self.binaryTreePaths(root.right)
         ]
         return treepaths
-
-
-if __name__ == "__main__":
-    pass
