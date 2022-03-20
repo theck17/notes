@@ -16,7 +16,3 @@ class Solution:
                 nums.remove(max(nums))
                 counter += 1
             return max(nums)
-
-
-if __name__ == "__main__":
-    pass
