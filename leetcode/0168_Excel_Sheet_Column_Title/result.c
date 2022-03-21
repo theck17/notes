@@ -49,6 +49,3 @@ char * convertToTitle(int n)
     
     return ret;
 }
-int main(){
-    return 0;
-}
