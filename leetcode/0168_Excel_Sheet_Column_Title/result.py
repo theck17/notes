@@ -12,7 +12,3 @@ class Solution:
             ans = abc[columnNumber % 26] + ans
             columnNumber = columnNumber // 26
         return ans
-
-
-if __name__ == "__main__":
-    pass
