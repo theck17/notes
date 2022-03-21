@@ -35,6 +35,3 @@ string convertToTitle(int n) {
 }
 };
 
-int main(){
-    return 0;
-}
