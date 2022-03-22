@@ -64,6 +64,3 @@ char ** removeComments(char ** source, int sourceSize, int* returnSize){
     return target;
 } 
 
-int main(){
-    return 0;
-}
