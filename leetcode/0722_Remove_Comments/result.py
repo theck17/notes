@@ -14,7 +14,3 @@ class Solution:
              regex_block_not_closed]) # order matters
         s = re.sub(regex, '', s)
         return list(filter(None, s.split('\n')))
-
-
-if __name__ == "__main__":
-    pass
