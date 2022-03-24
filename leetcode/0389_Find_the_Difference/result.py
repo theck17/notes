@@ -2,7 +2,7 @@
 # Author: C.K
 # Email: theck17@163.com
 # DateTime:2021-08-30 22:23:43
-# Description: 
+# Description:
 class Solution:
     def findTheDifference(self, s: str, t: str) -> str:
         dic = {}
@@ -13,7 +13,3 @@ class Solution:
                 return ch
             else:
                 dic[ch] -= 1
-
-if __name__ == "__main__":
-   pass
-
