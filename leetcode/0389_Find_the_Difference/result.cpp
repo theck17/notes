@@ -7,7 +7,6 @@
  *   DateTime      ：2021-08-30 22:22:43
  *   Description   ：
  */
-#include <algorithm>        //STL 通用算法
 using namespace std;
 class Solution {
 public:
@@ -19,6 +18,3 @@ public:
     }
 };
 
-int main(){
-    return 0;
-}
