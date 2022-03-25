@@ -2,9 +2,8 @@
 # Author: C.K
 # Email: theck17@163.com
 # DateTime:2021-06-09 19:33:41
-# Description: 
-import os
-import sys
+# Description:
+
 
 class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
@@ -15,11 +14,4 @@ class Solution:
                 res = min(res, j - i + 1)
                 target += nums[i]
                 i += 1
-        return res % (len(nums) + 1)  
-
-
-
-
-if __name__ == "__main__":
-   pass
-
+        return res % (len(nums) + 1)
