@@ -2,7 +2,6 @@
 # Author: C.K
 # Email: theck17@163.com
 # DateTime:2021-08-01 20:04:19
-# Description:
 
 
 class Solution:
