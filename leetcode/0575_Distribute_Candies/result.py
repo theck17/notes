@@ -16,7 +16,3 @@ class Solution:
 
         result = list_size if list_size < dict_size else dict_size
         return result
-
-
-if __name__ == "__main__":
-    pass
