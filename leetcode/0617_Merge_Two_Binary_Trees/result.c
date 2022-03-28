@@ -25,6 +25,3 @@ struct TreeNode* mergeTrees(struct TreeNode* root1, struct TreeNode* root2){
         return root1;
 }
 
-int main(){
-    return 0;
-}
