@@ -15,6 +15,3 @@ int distributeCandies(vector<int>& c) {
 }
 };
 
-int main(){
-    return 0;
-}
