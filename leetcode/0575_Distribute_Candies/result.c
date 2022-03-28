@@ -30,6 +30,3 @@ int distributeCandies(int* candies, int candiesSize) {
     return(count);
 }
 
-int main(){
-    return 0;
-}
