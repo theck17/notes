@@ -18,7 +18,3 @@ class Solution:
         res.right = self.mergeTrees(root1 and root1.right, root2
                                     and root2.right)
         return res
-
-
-if __name__ == "__main__":
-    pass
