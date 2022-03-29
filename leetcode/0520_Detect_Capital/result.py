@@ -11,7 +11,3 @@ class Solution:
         if Num_cap == 0 or Num_cap == n or Num_cap == 1 and word[0].isupper():
             return True
         return False
-
-
-if __name__ == "__main__":
-    pass
