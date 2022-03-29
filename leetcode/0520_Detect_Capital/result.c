@@ -57,6 +57,3 @@ bool detectCapitalUse(char* word){
     }
 }=
 
-int main(){
-    return 0;
-}
