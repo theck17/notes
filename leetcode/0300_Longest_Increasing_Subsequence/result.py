@@ -10,7 +10,3 @@ class Solution:
             if ins_idx != i:
                 nums[ins_idx], nums[i] = nums[i], float(inf)
         return nums.index(float(inf)) if float(inf) in nums else len(nums)
-
-
-if __name__ == "__main__":
-    pass
