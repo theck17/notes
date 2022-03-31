@@ -21,5 +21,3 @@ class Solution:
         return helper(0, len(nums) - 1) >= 0
 
 
-if __name__ == "__main__":
-    pass
