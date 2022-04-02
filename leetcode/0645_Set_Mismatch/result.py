@@ -16,7 +16,3 @@ class Solution:
             elif seen[i] == 2:
                 dup = i
         return [dup, miss]
-
-
-if __name__ == "__main__":
-    pass
