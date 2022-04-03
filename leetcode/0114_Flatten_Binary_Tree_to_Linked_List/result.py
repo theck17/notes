@@ -26,7 +26,3 @@ class Solution:
         root.right = self.prev
         root.left = None
         self.prev = root
-
-
-if __name__ == "__main__":
-    pass
