@@ -39,6 +39,3 @@ void flatten(struct TreeNode* root)
    
 }
 
-int main(){
-    return 0;
-}
