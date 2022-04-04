@@ -19,7 +19,3 @@ class Solution:
             if slow == fast: return True
 
         return False
-
-
-if __name__ == "__main__":
-    pass
