@@ -39,6 +39,3 @@ class Solution:
                else:
                     board[r][c] = 'X' 
 
-if __name__ == "__main__":
-   pass
-
