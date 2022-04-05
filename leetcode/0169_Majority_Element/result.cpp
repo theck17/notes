@@ -7,9 +7,6 @@
  *   DateTime      ：2021-06-05 11:21:47
  *   Description   ：
  */
-#include <algorithm>        //STL 通用算法
-#include <string>          //字符串类
-#include <vector>          //STL 动态数组容器
 using namespace std;
 
 class Solution {
@@ -31,6 +28,3 @@ public:
 
 
 
-int main(){
-    return 0;
-}
