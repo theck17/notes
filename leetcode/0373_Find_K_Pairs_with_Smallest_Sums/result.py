@@ -34,7 +34,3 @@ class Solution:
                 visited.append((val[1], val[2] + 1))
 
         return output
-
-
-if __name__ == "__main__":
-    pass
