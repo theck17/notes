@@ -14,5 +14,3 @@ class Solution:
             if t == 1: beg = mid + 1
 
 
-if __name__ == "__main__":
-    pass
