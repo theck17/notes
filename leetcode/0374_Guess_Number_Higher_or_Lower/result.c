@@ -19,6 +19,3 @@ int guessNumber(int n){
     return left;
 }
 
-int main(){
-    return 0;
-}
