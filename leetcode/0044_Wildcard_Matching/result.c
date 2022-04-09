@@ -27,6 +27,3 @@ bool isMatch(char * s, char * p){
     return !*s && !*p;
 }
 
-int main(){
-    return 0;
-}
