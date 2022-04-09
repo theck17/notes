@@ -19,7 +19,3 @@ class Solution:
                 elif p[j - 1] == '*':
                     dp[i][j] = dp[i - 1][j] or dp[i][j - 1]
         return dp[-1][-1]
-
-
-if __name__ == "__main__":
-    pass
