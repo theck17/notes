@@ -13,5 +13,3 @@ class Solution:
         return dp[n]
 
 
-if __name__ == "__main__":
-    pass
