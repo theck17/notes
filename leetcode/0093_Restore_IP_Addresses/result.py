@@ -21,5 +21,3 @@ class Solution:
                 self.helper(ans, s[i + 1:], k - 1, temp + [s[:i + 1]])
 
 
-if __name__ == "__main__":
-    pass
