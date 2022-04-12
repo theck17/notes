@@ -57,7 +57,3 @@ private:
         return false;
     }
 };t
-
-int main(){
-    return 0;
-}
