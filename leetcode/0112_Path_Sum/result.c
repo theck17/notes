@@ -31,7 +31,3 @@ bool hasPathSum(struct TreeNode* root, int sum){
         return false;
     return count(root,sum);
 }
-
-int main(){
-    return 0;
-}
