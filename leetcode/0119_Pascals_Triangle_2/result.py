@@ -17,7 +17,3 @@ class Solution:
                 f[i & 1][j] = f[i - 1 & 1][j - 1] + f[i - 1 & 1][j]
 
         return f[rowIndex & 1]
-
-
-if __name__ == "__main__":
-    pass
