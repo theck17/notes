@@ -15,7 +15,3 @@ class Solution:
             for j in range(1, len(l[i]) - 1):
                 l[i][j] = l[i - 1][j - 1] + l[i - 1][j]
         return l
-
-
-if __name__ == "__main__":
-    pass
