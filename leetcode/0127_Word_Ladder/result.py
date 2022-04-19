@@ -28,7 +28,3 @@ class Solution:
                         visited.add(word)
                         queue.append((word, level + 1))
         return 0
-
-
-if __name__ == "__main__":
-    pass
