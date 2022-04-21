@@ -15,7 +15,3 @@ class Solution:
                 out = i + 1
 
         return -1 if out > n else out
-
-
-if __name__ == "__main__":
-    pass
