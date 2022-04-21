@@ -35,6 +35,3 @@ int canCompleteCircuit(int* gas, int gasSize, int* cost, int costSize){
     return j;
 }
 
-int main(){
-    return 0;
-}
