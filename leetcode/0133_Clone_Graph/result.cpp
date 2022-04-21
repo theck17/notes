@@ -47,6 +47,3 @@ private:
     unordered_map<Node*, Node*> copies;
 };
 
-int main(){
-    return 0;
-}
