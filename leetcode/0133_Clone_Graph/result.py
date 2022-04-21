@@ -19,7 +19,3 @@ class Solution:
                     m[neigh] = Node(neigh.val)
                 m[n].neighbors.append(m[neigh])
         return m[node]
-
-
-if __name__ == "__main__":
-    pass
