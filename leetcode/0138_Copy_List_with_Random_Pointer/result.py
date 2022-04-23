@@ -29,7 +29,3 @@ class Solution:
                 mapping[cur].random = mapping[cur.random]
             cur = cur.next
         return mapping[head]
-
-
-if __name__ == "__main__":
-    pass
