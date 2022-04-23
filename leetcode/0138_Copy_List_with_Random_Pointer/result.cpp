@@ -73,6 +73,3 @@ Node* copyRandomList(Node* head) {
     }
 }; 
 
-int main(){
-    return 0;
-}
